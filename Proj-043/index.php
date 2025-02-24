@@ -34,7 +34,35 @@
         $soma *= $elemento;
     }
  
+         /* Cá está comentado a formatação da exibição da matriz de modo "bruto"
+         
+         
+         
+         echo '<pre>';
+
+     print_r($matriz);
+
+    echo '</pre>';
+
+    echo "<br>";
+    echo "<br>";  */
+
+
+
+    echo '<pre>'; // formata a matriz e demonstra os valores de forma "polida" para a facilitação da leitura.
+
+    // criando um laço para contar os valores da matriz e demosntra-las na tela.
+
+    foreach ($matriz as $linha){
+        foreach ($linha as $valor)
+        echo "$valor" . ' ';
+    }
+    echo '</pre>';
+    
+    
+    // mostra o valor da soma total da matriz
     echo "A soma da Matriz total é: " . $soma;
+
  
     
         
