@@ -11,7 +11,7 @@
 
     <?php 
     
-    // definindo uma variavel para armazenar uma matriz.
+    // definindo uma array matriz.
 
     $matriz =[
         
@@ -22,8 +22,13 @@
     
         ];
         
+        // criando uma array soma, qual armazena um valor.
+
         $soma = 1;
  
+        // criando um laço com o foreach, que executa a contagem das linhas desta matriz, em seguida contbiliza seus elementos (números), e por fim soma todos estes elementos um com os outros para obter um resultado.
+        
+
     foreach ($matriz as $linha){
         foreach ($linha as $elemento)
         $soma *= $elemento;
