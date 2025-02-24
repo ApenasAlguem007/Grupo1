@@ -11,6 +11,8 @@
 
     <?php 
     
+    // definindo uma variavel para armazenar uma matriz.
+
     $matriz =[
         
         [10, 16, 1, 5],
