@@ -34,19 +34,19 @@
         $soma *= $elemento;
     }
  
-         /* Cá está comentado a formatação da exibição da matriz de modo "bruto"
-         
-         
-         
-         echo '<pre>';
+    /*
+    Cá está comentado a formatação da exibição da matriz de modo "bruto".
 
-     print_r($matriz);
+    echo '<pre>';
+
+    print_r($matriz);
 
     echo '</pre>';
 
     echo "<br>";
-    echo "<br>";  */
+    echo "<br>";  
 
+    */
 
 
     echo '<pre>'; // formata a matriz e demonstra os valores de forma "polida" para a facilitação da leitura.
