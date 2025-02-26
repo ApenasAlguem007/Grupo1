@@ -61,7 +61,7 @@
     
     
     // mostra o valor da soma total da matriz
-    echo "A soma da Matriz total é: " . $soma;
+    echo "A multiplicação dos valores da Matriz é: " . $soma;
 
  
     
